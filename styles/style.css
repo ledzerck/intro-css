@@ -1,0 +1,48 @@
+h1 {
+    color: blue;
+}
+
+/* Selectores avanzados */
+
+
+/* Sirven para ser más específicos en la parte que queremos seleccionar*/
+
+header {
+    background-color: blanchedalmond;
+}
+
+nav ul {
+    padding: 0;
+    text-align: center;
+    background-color: rgb(162, 83, 54);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Pseudoclases */
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* Display */
+
+/* Block | Inline | Inline-block*/
+
+nav ul li {
+    display: inline-block;
+    background-color: chocolate;
+    width: 60px;
+    padding: 8px;
+    height: 20px;
+    margin:  0 20px;
+}
+
+footer {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+}
